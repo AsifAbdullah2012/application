@@ -36,3 +36,14 @@ Before continuing please commit your answers so far, thanks.
 If you check the branches of this repository you will recognize another branch.
 Please merge the branch and its containing files into your main branch.
 Resolve possible merge conflicts.
+
+
+## Part 3: Simple demo app
+
+### Implementation task
+
+Create an android app which allows the user to register a patient with firstname, lastname, date of birth, weight, shoesize. Additionally the app should instruct the user to take four pictures of the patients feet, the top and bottom per foot. The backend can be mocked and does not have to be implemented by you. However, it should ideally be a REST API endpoint.
+
+### What privacy issues are related to this feature?
+
+- Here we are taking information of the patient and also photos of his foot. This information is sensitive. For example, a health insurance company when contacted with them asks about the last name and date of birth. As scammers if they have the information might call the patient and tell his last name and date of birth and pretend to be the health insurance company. So, for these reasons any data should be dealt carefully. 
